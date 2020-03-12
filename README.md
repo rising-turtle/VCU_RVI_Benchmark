@@ -10,7 +10,7 @@ alt="VCU_RVI Benchmark demo" width="320" height="240" border="10" /></a>
 ## 2. Open source of VIO methods to test the data sequences
 + VINS-Fusion: https://github.com/rising-turtle/VINS-Fusion
 + VINS-RGBD: https://github.com/rising-turtle/VINS-RGBD 
-+ VINS-Mono: 
++ VINS-Mono: https://github.com/rising-turtle/VINS-Mono
 
 ## 3. Data Sequences
 Some data sequences are list here that can be downloaded for test: 
