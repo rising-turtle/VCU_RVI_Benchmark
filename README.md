@@ -18,6 +18,8 @@ Some data sequences are list here that can be downloaded for test:
 + [lab_light4](https://drive.google.com/file/d/1sXdYoHd14Lb_YalHLopGnQHE-cbfHCdj/view?usp=sharing)
 + [lab_manual2](https://drive.google.com/file/d/1wQ0aTrWZuswOaWWFHuxdMyGaXr71aSwM/view?usp=sharing)
 
+More data sequences will be published soon .
+
 Topics:
 + depth topic: /cam0/depth
 + color topic: /cam0/color
