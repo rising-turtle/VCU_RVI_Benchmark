@@ -1,5 +1,8 @@
 # VCU_RVI_Benchmark
-Implementations of VIO methods to use the benchmark
+All data sequences are accessible at 
+https://vcu-rvi-dataset.github.io/2020/08/14/Dataset-Download/
+
+Implementations of VIO methods to use the benchmark with examples
 
 ## 1. Demo
 A preview for the data sequences in the benchmark is shown below
@@ -17,8 +20,6 @@ Some data sequences are list here that can be downloaded for test:
 + [lab_easy2](https://drive.google.com/file/d/1m-5EKpcNCRtXJwUi0_-IIARGfpLt-N1e/view?usp=sharing)
 + [lab_light4](https://drive.google.com/file/d/1sXdYoHd14Lb_YalHLopGnQHE-cbfHCdj/view?usp=sharing)
 + [lab_manual2](https://drive.google.com/file/d/1wQ0aTrWZuswOaWWFHuxdMyGaXr71aSwM/view?usp=sharing)
-
-More data sequences will be published soon .
 
 Topics:
 + depth topic: /cam0/depth
