@@ -1,8 +1,5 @@
 import csv
 import numpy as np
-import matplotlib
-import matplotlib.pyplot as plt
-from mpl_toolkits.mplot3d import Axes3D
 from scipy.spatial.transform import Rotation as R
 
 import sys
@@ -59,12 +56,6 @@ time_index_map = {
 'corridor-bumper1': 4589.798765979,
 'corridor-bumper2': 6756.646370621
 }
-
-def d2r(d):
-    return d*math.pi/180.
-
-def r2d(r):
-    return r*180./math.pi
 
 def dataFromCSV(data_path):
     with open(data_path, 'r') as f:
