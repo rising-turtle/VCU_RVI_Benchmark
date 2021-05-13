@@ -1,3 +1,6 @@
+##
+## compatible with old scipy version
+
 import csv
 import numpy as np
 from scipy.spatial.transform import Rotation as R
@@ -111,17 +114,17 @@ t = data[0,1:4]
 Tow[0:3,3] = t.reshape((3, 1))
 r = R.from_quat(data[0,4:8])
 
-Tow[0:3,0:3] = r.as_matrix();
+Tow[0:3,0:3] = r.as_dcm();
 Tow = np.linalg.inv(Tow)
 
 for i in range(data.shape[0]):
     Twi = np.matrix(np.identity(4))
     Twi[0:3,3] = data[i,1:4].reshape((3,1))
-    Twi[0:3,0:3] = R.from_quat(data[i,4:8]).as_matrix();
+    Twi[0:3,0:3] = R.from_quat(data[i,4:8]).as_dcm();
 
     Toi = Tow * Twi;
     data[i,1:4] = Toi[0:3,3].reshape(3);
-    data[i,4:8] = R.from_matrix(Toi[0:3,0:3]).as_quat()
+    data[i,4:8] = R.from_dcm(Toi[0:3,0:3]).as_quat()
 
 # output file
 output_file = data_file[:-4]+'_tum.csv'
