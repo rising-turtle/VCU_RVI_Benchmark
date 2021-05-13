@@ -14,6 +14,7 @@ alt="VCU_RVI Benchmark demo" width="320" height="240" border="10" /></a>
 + VINS-Fusion: https://github.com/rising-turtle/VINS-Fusion
 + VINS-RGBD: https://github.com/rising-turtle/VINS-RGBD 
 + VINS-Mono: https://github.com/rising-turtle/VINS-Mono
++ Open_VINS: https://github.com/rising-turtle/open_vins
 
 Topics:
 + depth topic: /cam0/depth
