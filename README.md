@@ -2,7 +2,9 @@
 All data sequences are accessible at 
 https://vcu-rvi-dataset.github.io/2020/08/14/Dataset-Download/
 
-Implementations of VIO methods to use the benchmark with examples
+The ground truths of the device trajectories are accessible in the folder **tools**.
+
+Implementations of VIO methods to use the benchmark with examples are shown below. 
 
 ## 1. Demo
 A preview for the data sequences in the benchmark is shown below
@@ -43,7 +45,7 @@ e.g. ```evo_ape tum lab_motion2_gt.csv lab_motion2_tum.csv -a -p```
 
 Or, we can use the following command to align to the ground truth with the first *N* frames:
 
-e.g. ```evo_ape tum lab_motion2_gt.csv lab_motion2_tum.csv -a --n_to_align 100 -p```
+e.g. ```evo_ape tum lab_motion2_gt.csv lab_motion2_tum.csv -a --n_to_align 150 -p```
 
 <img src="./tools/motion2_error_align_100.PNG" width="70%" align="center" />
 
