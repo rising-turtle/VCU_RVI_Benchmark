@@ -17,6 +17,7 @@ alt="VCU_RVI Benchmark demo" width="320" height="240" border="10" /></a>
 + VINS-RGBD: https://github.com/rising-turtle/VINS-RGBD 
 + VINS-Mono: https://github.com/rising-turtle/VINS-Mono
 + Open_VINS: https://github.com/rising-turtle/open_vins
++ DUI-VIO: https://github.com/rising-turtle/DUI_VIO
 
 Topics:
 + depth topic: /cam0/depth
