@@ -1,0 +1,1 @@
+evo_traj tum VINS-Mono.csv VINS-RGBD.csv DUI-VIO.csv --ref=ground_truth.csv -a --n_to_align 250 -p --plot_mode=yz 
