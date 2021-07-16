@@ -32,7 +32,7 @@ In the folder **tools**, *process_result.py* (or *process_result_old.py* for old
 python process_result.py [trajectory_result].csv [data_sequence_name] 
 ```
 
-```[trajectory_result].csv``` is the output of VINS-Mono/VINS-RGBD/DUI-VIO, some examples can be found in the folder **test_results** 
+```[trajectory_result].csv``` is the output of VINS-Mono/VINS-RGBD/DUI-VIO, some examples can be found in the folder **test_results**    
 ```[data_sequence_name]``` are the data sequence names defined in Table III and IV in the [paper](./tools/IROS20_0685_FI.pdf) 
 
 e.g. ```python process_result.py lab_motion2.csv lab-motion2 ```
