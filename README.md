@@ -2,6 +2,8 @@
 All data sequences are accessible at 
 https://vcu-rvi-dataset.github.io/2020/08/14/Dataset-Download/
 
+If you run into issues like **"blocked by Google Drive now (You need permission)"** from the previous webpage, please use this [link](https://drive.google.com/drive/folders/1yO10ty1IbC9aInYz7wdauiFoKlnjZCsc?usp=sharing) to access the datasets instead!
+
 The ground truths of the device trajectories are accessible in the folder **tools**.
 
 Implementations of VIO methods to use the benchmark with examples are shown below. 
